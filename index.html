@@ -28,29 +28,34 @@
 
     <!-- Barra de navegacion -->
 
-    <nav class="navegacion-principal contenedor">
-        <a href="#">Inicio</a>
-        <a href="#">Sobre mi</a>
-        <a href="#">Clientes</a>
-        <a href="#">Contactos</a>
-    </nav>
+    <div class="nav-bg">
+        <nav class="navegacion-principal contenedor">
+            <a href="#">Inicio</a>
+            <a href="#">Sobre mi</a>
+            <a href="#">Clientes</a>
+            <a href="#">Contactos</a>
+        </nav>
+    </div>
 
     <!-- Cuando se tiene un etiqueta h1 o descendientes se debe poner en un section debido a que esta introduce una nueva informacion -->
 
-    <section>
-        <h2>Diseño y Desarrollo Web</h2>
+    <section class="hero">
+        <div class="contenido-hero">
 
-        <!-- Pin de ubicacion -->
+            <h2>Diseño y Desarrollo Web</h2>
 
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc507" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-            <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-            <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-        </svg>
-        <p>Colombia, Medellin</p>
+            <!-- Pin de ubicacion -->
+    
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin" width="88" height="88" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffc507" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
+            </svg>
+            <p>Medellin, Colombia.</p>
+    
+            <a class="boton" href="#">Contactar</a>
 
-        <a href="#">Contactar</a>
-
+        </div>
     </section>
 
     <!-- Presentacion de la pagina -->
