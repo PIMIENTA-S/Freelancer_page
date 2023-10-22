@@ -254,3 +254,7 @@ h1,h2,h3 {
 .campo textarea {
     height: 20rem;
 }
+
+footer {
+    text-align: center;
+}
